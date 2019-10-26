@@ -4,14 +4,6 @@ public class Testing2 {
 
 	public static void main(String[] args) {
 		System.out.println(Quadratic());
-	/*	Scanner input = new Scanner(System.in); 
-		String[] day = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-		String dayTest = input.next();
-		int count = 0;
-		while (!(dayTest.equalsIgnoreCase(day[count]))) {
-			count++;
-		} 
-		System.out.println("The day is " + day[count]); */
 	}
 	public static String Quadratic() {
 		System.out.println("enter a, b, c");
@@ -41,18 +33,4 @@ public class Testing2 {
 		;
 		return quadratic4;
 	}
-	
-	
-	public static String DayTest() {
-		Scanner input = new Scanner(System.in); 
-		String[] day = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-		String dayTest = "wrong";
-		int count = 0;
-		while (!(dayTest.equalsIgnoreCase(day[count]))) {
-			dayTest = input.next();
-			count++;
-		} 
-		return null;
-	}
- 
-}
+  }
